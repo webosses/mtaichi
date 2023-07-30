@@ -1,3 +1,4 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap'); */
 
 :root {
     --primaryColor: rgb(255, 124, 10);
@@ -64,7 +65,7 @@ section {
 
 header {
 
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/banner.jpg)right/cover no-repeat;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/banner.jpg)right/cover no-repeat;
 }
 
 .primary-color {
@@ -746,3 +747,20 @@ footer a:hover {
 
 
 }
+
+@media only screen and (max-width: 600px) {
+    header {
+        background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/banner_vertical.png)right/cover no-repeat;
+      
+    }
+    .head_address{
+        display: none;
+    }
+    .navbar img{
+        display:none;
+    }
+    .head_desc{
+        width:100%!important;
+    }
+    .banner col-4{display: none;}
+  }
