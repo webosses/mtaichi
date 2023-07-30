@@ -132,7 +132,7 @@ nav {
 }
 
 .navbar-toggler {
-    color: var(--primaryColor);
+    color: #eee;
     opacity: 0.8;
 }
 
