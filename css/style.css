@@ -215,6 +215,13 @@ section h1 {
 
 
 }
+table, tr{
+    border: 1px solid gray;
+}
+th,td{padding: 0.5rem 1rem;
+    
+
+}
 
 .devider {
     position: absolute;
@@ -791,4 +798,12 @@ footer a:hover {
         margin-bottom: 8rem;
     }
     .banner col-4{display: none;}
+  }
+
+  #adult_taichi{
+    background-color: #D9D28D;
+  }
+  .taichi_class{
+    padding: 1rem;
+    border-radius: 1rem;
   }
